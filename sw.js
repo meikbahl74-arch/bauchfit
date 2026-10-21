@@ -1,4 +1,4 @@
-const CACHE='bauchfit-v5-design-refresh';
+const CACHE='bauchfit-v6-exercise-library';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./exercises/standing.webp','./exercises/squat.webp','./exercises/jumping-jacks.webp','./exercises/knee-lift.webp','./exercises/plank.webp','./exercises/mountain-climber.webp','./exercises/push-up.webp','./exercises/bird-dog.webp','./exercises/dead-bug.webp','./exercises/bicycle-crunch.webp','./exercises/glute-bridge.webp','./exercises/reverse-crunch.webp','./exercises/side-plank.webp','./exercises/side-stretch.webp','./exercises/lunge.webp','./exercises/forward-fold.webp'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)));self.skipWaiting()});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
