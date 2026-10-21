@@ -1,5 +1,16 @@
-const CACHE='bauchfit-v6-exercise-library';
-const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg','./exercises/standing.webp','./exercises/squat.webp','./exercises/jumping-jacks.webp','./exercises/knee-lift.webp','./exercises/plank.webp','./exercises/mountain-climber.webp','./exercises/push-up.webp','./exercises/bird-dog.webp','./exercises/dead-bug.webp','./exercises/bicycle-crunch.webp','./exercises/glute-bridge.webp','./exercises/reverse-crunch.webp','./exercises/side-plank.webp','./exercises/side-stretch.webp','./exercises/lunge.webp','./exercises/forward-fold.webp'];
-self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)));self.skipWaiting()});
-self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
-self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(response=>{if(response&&response.ok&&new URL(event.request.url).origin===location.origin){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy))}return response}).catch(()=>caches.match('./index.html'))))});
+const CACHE_NAME = 'bauchfit-shell-v3';
+const CORE = ['./','./index.html','./manifest.webmanifest','./icon.svg'];
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
+});
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('bauchfit-shell-') && key !== CACHE_NAME).map(key => caches.delete(key)))).then(() => self.clients.claim()));
+});
+self.addEventListener('fetch', event => {
+  if (event.request.method !== 'GET') return;
+  event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
+    const copy = response.clone();
+    if (response.ok && new URL(event.request.url).origin === self.location.origin) caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+    return response;
+  }).catch(() => caches.match('./index.html'))));
+});
