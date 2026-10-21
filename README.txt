@@ -30,3 +30,13 @@ WICHTIGE HINWEISE
 - Lokale Daten bleiben im jeweiligen Browser/auf dem Gerät. Exportiere regelmäßig eine Sicherungsdatei, um Datenverlust vorzubeugen.
 - Dies ist eine erste vollständige App-Version; PWA-Installation, Offline-Verhalten und Timer sollten auf den tatsächlich verwendeten Geräten praktisch getestet werden.
 - Training ist kein medizinischer Rat. Beende Übungen bei Schmerzen, Schwindel oder ungewöhnlicher Atemnot.
+
+APP AKTUALISIEREN (INSTALLIERTE PWA)
+===================================
+1. Entpacke die komplette ZIP-Datei.
+2. Veröffentliche den INHALT des Ordners bauchfit_1_0 auf derselben HTTPS-Adresse, von der du die App installiert hast. Überschreibe dabei index.html, sw.js, manifest.webmanifest, icon.svg und den Ordner exercises.
+3. Öffne diese Webadresse im normalen Browser (nicht nur über das App-Symbol) und lade sie neu. Warte einige Sekunden, damit der neue Service Worker installiert wird.
+4. Schließe die installierte App vollständig und öffne sie erneut.
+5. Falls sie weiterhin alt aussieht: entferne die installierte App vom Startbildschirm/Desktop, lösche für die Website die gespeicherten Website-Daten/Cache im Browser und installiere sie anschließend erneut von derselben HTTPS-Adresse. Lokale Trainingsdaten können beim Löschen der Website-Daten verloren gehen – vorher in Einstellungen exportieren!
+
+WICHTIG: Nur die ZIP-Datei herunterzuladen aktualisiert eine bereits installierte App NICHT. Die Dateien müssen zuerst auf dem Webserver ersetzt werden, über den die App installiert wurde.
