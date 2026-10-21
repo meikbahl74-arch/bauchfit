@@ -97,6 +97,12 @@ const exercises=[
 {id:'mountain',name:'Mountain Climbers',focus:'cardio',levels:['Fortgeschritten','Expert'],emoji:'🧗',inst:'Im hohen Stütz abwechselnd Knie nach vorne führen. Für eine leichtere Variante langsam und mit Händen erhöht arbeiten.',low:false},
 {id:'bird-dog-2',name:'Bird Dog – kontrollierte Wiederholung',focus:'core',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🐕',inst:'Strecke im Vierfüßlerstand Arm und gegenüberliegendes Bein aus. Arbeite langsam und ohne den Rücken durchzudrücken.',low:true},
 {id:'burpee',name:'Burpee-Variante',focus:'full',levels:['Expert'],emoji:'⚡',inst:'Nur bei sicherer Technik: in die Hocke, Hände zum Boden, Füße zurück und wieder nach vorne. Sprung optional; jederzeit vereinfachen.',low:false},
+{id:'heel-taps',name:'Fersentippen in Rückenlage',focus:'core',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🦶',inst:'Lege dich auf den Rücken, Knie gebeugt. Tippe abwechselnd mit einer Ferse zum Boden und halte den unteren Rücken ruhig.',low:true},
+{id:'knee-fallout',name:'Knie seitlich öffnen',focus:'core',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🧘',inst:'In Rückenlage beide Füße aufstellen. Öffne ein Knie langsam zur Seite, ohne das Becken zu drehen, und wechsle.',low:true},
+{id:'deadbug-taps',name:'Dead Bug – Fersentippen',focus:'core',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🪲',inst:'Hebe Arme und Beine an. Tippe abwechselnd mit einem Fuß leicht zum Boden; der Rücken bleibt stabil.',low:true},
+{id:'knee-plank',name:'Unterarmstütz auf Knien',focus:'core',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🧍',inst:'Stütze dich auf Unterarme und Knie. Spanne Bauch und Gesäß an und halte Kopf, Rücken und Hüfte in einer Linie.',low:true},
+{id:'glute-squeeze',name:'Gesäß anspannen in Rückenlage',focus:'core',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🌉',inst:'Lege dich auf den Rücken, Füße aufgestellt. Spanne das Gesäß an, hebe das Becken leicht und senke langsam ab.',low:true},
+{id:'standing-crunch',name:'Stehender Knie-Crunch',focus:'core',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'💪',inst:'Stehe aufrecht und führe ein Knie kontrolliert Richtung Bauch. Spanne den Rumpf an und wechsle die Seite.',low:true},
 {id:'coolwalk',name:'Locker gehen und atmen',focus:'cool',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🌿',inst:'Gehe langsam, atme ruhig und lasse die Herzfrequenz allmählich sinken.',low:true},
 {id:'stretchside',name:'Seitliche Rumpfdehnung',focus:'cool',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🌱',inst:'Strecke einen Arm nach oben und neige dich sanft zur Gegenseite. Nicht federn, dann wechseln.',low:true},
 {id:'hipstretch',name:'Hüftbeuger sanft dehnen',focus:'cool',levels:['Anfänger','Fortgeschritten','Expert'],emoji:'🧘',inst:'Mache einen kurzen Ausfallschritt, kippe das Becken leicht nach hinten und spüre eine angenehme Dehnung vorn an der Hüfte.',low:true},
@@ -115,7 +121,7 @@ function makePlan({duration=20,pause=15,level='Anfänger',focus='Core + Ganzkör
  let total=duration*60,w=warmup*60,c=cooldown*60,main=total-w-c;if(main<60)throw Error('Für Aufwärmen, Hauptteil und Cool-down bleibt zu wenig Zeit. Bitte Dauer oder Aufwärm-/Cool-down-Zeit anpassen.');
  let lo=level==='Anfänger'?25:level==='Fortgeschritten'?30:35,hi=level==='Anfänger'?40:level==='Fortgeschritten'?45:50;
  let pool=focusPool(focus,level);if(pool.length<4)pool=focusPool('Core + Ganzkörper',level);pool=shuffled(pool);
- let n=Math.max(3,Math.min(60,Math.floor((main+pause)/(lo+pause))));
+ let n=Math.max(3,Math.min(60,Math.round((main+pause)/(((lo+hi)/2)+pause))));
  // Choose exercise count that allows active intervals within the selected level range when possible.
  const feasible=[];for(let k=3;k<=60;k++){let active=main-(k-1)*pause;if(active>=k*lo&&active<=k*hi)feasible.push({k,active,score:Math.abs(k-Math.round(main/((lo+hi)/2+pause)))});}if(feasible.length)n=feasible.sort((a,b)=>a.score-b.score)[0].k;else n=Math.max(2,Math.min(60,Math.floor((main+pause)/(lo+pause))));
  while(n>2&&main-(n-1)*pause<n*10)n--;
