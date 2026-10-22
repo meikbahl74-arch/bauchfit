@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bauchfit-shell-v6';
+const CACHE_NAME = 'bauchfit-shell-v7';
 const CORE = ['./','./index.html','./manifest.webmanifest','./icon.svg',
   './exercises/bicycle-crunch.webp',
   './exercises/bird-dog.webp',
