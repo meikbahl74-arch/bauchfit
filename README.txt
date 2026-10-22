@@ -1,19 +1,13 @@
-BAUCHFIT 1.0 – REPARATUR DER ÜBUNGSBILDER
+BauchFit 1.0 – Übungssammlung aktualisiert
 
-WICHTIG: Den gesamten Inhalt des Ordners bauchfit_1_0 auf GitHub Pages veröffentlichen.
-Die Ordnerstruktur muss erhalten bleiben, insbesondere der Ordner exercises mit allen .webp-Dateien.
+Inhalt: index.html, manifest.webmanifest, sw.js, icon.svg und vorhandene Übungsbilder im Ordner exercises/.
 
-Enthalten:
-- index.html
-- manifest.webmanifest
-- icon.svg
-- sw.js (Cache-Version v7, Übungsbilder werden beim Installieren vorgeladen)
-- exercises/ (16 lokale Übungsbilder)
+Hinweis zur Bildabdeckung: Das Paket enthält 16 vorhandene Übungsillustrationen. Nicht jede Übung besitzt eine eigene Illustration; in diesen Fällen zeigt die App eine vorhandene Ersatzillustration bzw. einen Fallback. Die Screenshots und Videos wurden nicht als vollständige, eigenständige Bilddateien für jede Übung übernommen.
 
-UPDATE OHNE LÖSCHEN LOKALER DATEN:
-1. Vorhandene Dateien auf GitHub Pages überschreiben; Ordner exercises vollständig hochladen.
-2. Nicht Website-Daten löschen und die Home-Bildschirm-App nicht entfernen.
-3. Die GitHub-Pages-Adresse in Safari öffnen, neu laden und 30–60 Sekunden warten.
-4. BauchFit vollständig schließen und über das Home-Bildschirm-Symbol erneut öffnen.
+Installation: ZIP vollständig entpacken und den Inhalt des Ordners bauchfit_1_0 gemeinsam auf den Webhost kopieren. Nicht nur index.html einzeln hochladen. Service Worker benötigt HTTPS oder localhost.
 
-Die Trainingsdaten werden im lokalen Speicher der App gehalten. Diese Reparatur ändert den Speicher-Schlüssel nicht und sollte die Trainingsdaten daher erhalten. Trotzdem ist ein Export in den App-Einstellungen vor Updates empfehlenswert.
+
+Bild-Update 22.10.2026: Mehrere Übungsbilder wurden aus den vom Nutzer bereitgestellten App-Screenshots zugeschnitten und den passenden Übungen zugeordnet (u. a. Unterarmstütz, Bergsteiger, umgekehrte Bauchpresse, seitliches Beinheben, Bicycle Crunches, schräge Rumpfdrehung, Crunch mit gekreuzten Armen, Toter Käfer und Bein-Spreizer). Diese Ausschnitte sind Vorschaubilder, keine eigenständigen Trainingsvideos. Noch nicht jede Übung besitzt ein individuelles Bild; unbekannte Übungen verwenden weiterhin ein vorhandenes Ersatzbild. Vor Veröffentlichung bitte auf iPhone testen.
+
+
+Offline-Prüfung 22.10.2026: Cache-Version auf v5 erhöht und alle vorhandenen Übungsbilder explizit in die Installations-Cache-Liste aufgenommen. Damit werden diese Bilder bei erfolgreicher Installation des Service Workers auch offline bereitgestellt. Ein echter iPhone-/Safari-Lauftest ist hiermit nicht ersetzt.
