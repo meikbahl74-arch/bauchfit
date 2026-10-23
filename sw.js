@@ -1,32 +1,32 @@
-const CACHE_NAME = 'bauchfit-v1-musterdesign-20261023';
+const CACHE_NAME = 'bauchfit-v1-katalog85-root-20261023';
 const CORE = ['./','./index.html','./manifest.webmanifest','./icon.svg',
-  './exercises/bicycle-crunch.webp',
-  './exercises/bird-dog.webp',
-  './exercises/cross-arm-crunch.webp',
-  './exercises/dead-bug.webp',
-  './exercises/forward-fold.webp',
-  './exercises/glute-bridge.webp',
-  './exercises/jumping-jacks.webp',
-  './exercises/knee-lift.webp',
-  './exercises/leg-spread.webp',
-  './exercises/lunge.webp',
-  './exercises/mountain-climber.webp',
-  './exercises/plank.webp',
-  './exercises/push-up.webp',
-  './exercises/reverse-crunch.webp',
-  './exercises/side-leg-lift-left.webp',
-  './exercises/side-leg-lift-right.webp',
-  './exercises/side-plank.webp',
-  './exercises/side-stretch.webp',
-  './exercises/squat.webp',
-  './exercises/standing.webp',
-  './exercises/twist-lying.webp'
+  './bicycle-crunch.webp',
+  './bird-dog.webp',
+  './cross-arm-crunch.webp',
+  './dead-bug.webp',
+  './forward-fold.webp',
+  './glute-bridge.webp',
+  './jumping-jacks.webp',
+  './knee-lift.webp',
+  './leg-spread.webp',
+  './lunge.webp',
+  './mountain-climber.webp',
+  './plank.webp',
+  './push-up.webp',
+  './reverse-crunch.webp',
+  './side-leg-lift-left.webp',
+  './side-leg-lift-right.webp',
+  './side-plank.webp',
+  './side-stretch.webp',
+  './squat.webp',
+  './standing.webp',
+  './twist-lying.webp'
 ];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('bauchfit-shell-') && key !== CACHE_NAME).map(key => caches.delete(key)))).then(() => self.clients.claim()));
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('bauchfit-') && key !== CACHE_NAME).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
