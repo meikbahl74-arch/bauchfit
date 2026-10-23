@@ -1,27 +1,5 @@
-const CACHE_NAME = 'bauchfit-shell-v7';
-const CORE = ['./','./index.html','./manifest.webmanifest','./icon.svg',
-  './exercises/bicycle-crunch.webp',
-  './exercises/bird-dog.webp',
-  './exercises/cross-arm-crunch.webp',
-  './exercises/dead-bug.webp',
-  './exercises/forward-fold.webp',
-  './exercises/glute-bridge.webp',
-  './exercises/jumping-jacks.webp',
-  './exercises/knee-lift.webp',
-  './exercises/leg-spread.webp',
-  './exercises/lunge.webp',
-  './exercises/mountain-climber.webp',
-  './exercises/plank.webp',
-  './exercises/push-up.webp',
-  './exercises/reverse-crunch.webp',
-  './exercises/side-leg-lift-left.webp',
-  './exercises/side-leg-lift-right.webp',
-  './exercises/side-plank.webp',
-  './exercises/side-stretch.webp',
-  './exercises/squat.webp',
-  './exercises/standing.webp',
-  './exercises/twist-lying.webp'
-];
+const CACHE_NAME = 'bauchfit-shell-v4';
+const CORE = ['./','./index.html','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
