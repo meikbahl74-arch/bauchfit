@@ -1,7 +1,9 @@
 BauchFit 1.0 – Musterdesign auf alle Übungen übertragen
 
-Enthält die bestehende PWA mit dem einheitlichen Zwei-Schritt-Übungsbereich, mobil angepasstem Layout und vorhandenen Übungsbildern. Der Einzelübungsstart ist auf 30 Sekunden eingestellt.
+Enthält die bestehende PWA mit einheitlichem Zwei-Schritt-Übungsbereich, mobil angepasstem Layout und vorhandenen Übungsbildern.
 
-WICHTIG: Für viele Übungen sind derzeit keine zwei unterschiedlichen Original-Posen vorhanden. Wo nur ein vorhandenes Motiv verfügbar ist, wird es in beiden Schritten verwendet; fehlende Dateien werden als „Bild folgt“ kenntlich gemacht. Die Bilder müssen für eine endgültige Veröffentlichung je Übung noch fachlich korrekt und als Ausgangsposition/Bewegung zugeordnet werden.
+Einzelübung: 30 Sekunden Training, danach 15 Sekunden Pause. Der Countdown und die Live-Steuerung bleiben Teil des bestehenden Ablaufs.
 
-GitHub Pages: Den Inhalt des Ordners bauchfit_1_0 in den vorhandenen BauchFit-Unterordner hochladen/ersetzen. Den Ordner exercises vollständig mit hochladen.
+BILDHINWEIS: Für viele Übungen liegen keine zwei unterschiedlichen, fachlich geprüften Original-Posen vor. Die erste Karte nutzt das zugeordnete vorhandene Motiv; die zweite Karte zeigt transparent einen Hinweis zum Bewegungsablauf statt ein möglicherweise falsches zweites Bild vorzutäuschen. Fehlende oder nicht ladbare erste Bilder werden als „Passendes Bild folgt“ kenntlich gemacht.
+
+GitHub Pages: Den Inhalt des Ordners bauchfit_1_0 in das vorhandene BauchFit-Repository hochladen. Den Ordner exercises vollständig mit hochladen. Vor dem Ersetzen der Live-Version zuerst eine Sicherung des aktuellen Repositorys erstellen.
