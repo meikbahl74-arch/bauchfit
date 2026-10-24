@@ -94,6 +94,14 @@ body{background:#030a09;background-image:radial-gradient(ellipse at 50% -10%,#12
 .live-screen .live-list-toggle .list-count{float:right;color:#d1d8cf}
 @media(min-width:760px){.live-screen .live{padding:18px}.live-screen .live-content-grid{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:14px;align-items:start}.live-screen .live-plan-list{max-height:62vh}}
 
+
+/* Bildflächen: keine übergroßen Motive, sauberer Zuschnitt und ruhige iPhone-Darstellung */
+.exercise-art{display:grid;place-items:center;overflow:hidden;background:#101811!important;border-color:var(--line)!important;padding:10px}
+.live-screen .exercise-art{padding:10px;min-width:0}
+.live-screen .exercise-photo,.exercise-photo{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;background:#101811!important;border-radius:12px}
+.image-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%;height:100%;min-height:180px;text-align:center;padding:20px;color:var(--muted);background:#101811;border-radius:12px}
+.image-fallback span{display:grid;place-items:center;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;color:var(--green);font-size:24px}
+.image-fallback strong{color:var(--text);font-size:18px}.image-fallback small{max-width:250px}
 </style></head>
 <body><div class="app">
 <header class="top"><div class="brand"><div class="logo">BF</div><div><h1>BauchFit <span style="color:var(--green)">1.0</span></h1><small>DEIN TRAINING. DEIN TEMPO.</small></div></div><span class="pill">OFFLINE READY</span></header>
