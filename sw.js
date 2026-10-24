@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bauchfit-v1-katalog85-root-20261023';
+const CACHE_NAME = 'bauchfit-v1-profile-kcal-20261024';
 const CORE = ['./','./index.html','./manifest.webmanifest','./icon.svg',
   './bicycle-crunch.webp',
   './bird-dog.webp',
