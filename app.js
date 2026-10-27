@@ -21,26 +21,16 @@ function exerciseVisual(e){
  if(e?.phase==='rest') return `<div class="rest-visual" role="img" aria-label="Erholungspause"><div class="rest-orbit"><span>Ⅱ</span></div><strong>Kurze Erholung</strong><span>Atme ruhig und bereite dich auf die nächste Übung vor.</span></div>`;
  const id=e?.id||'';
  const imageById={
-  // Nur vorhandene, visuell passende Motive verwenden; keine pauschale Stehbild-Zuordnung.
-  'march':'standing','boxing-march':'standing','coolwalk':'standing','arms':'standing','sidestep':'side-stretch',
-  'kneelift':'knee-lift','march-high':'knee-lift','jacks':'jumping-jacks',
-  'squat':'squat','squat-reach':'squat','burpee':'push-up',
-  'deadbug':'bird-dog','deadbug-taps':'bird-dog','reverse':'reverse-crunch','bicycle':'bicycle-crunch',
-  'bridge':'glute-bridge','plank':'push-up','mountain':'push-up',
-  'bird-dog':'bird-dog','bird-dog-2':'bird-dog','side-plank':'side-plank',
-  'stretchside':'side-stretch','hipstretch':'lunge','backmob':'forward-fold',
-  'extended-crunch':'cross-arm-crunch','heel-tap-crunch':'cross-arm-crunch','heel-taps':'cross-arm-crunch','glute-kicks':'bird-dog',
-  'kneeling-side-plank-left':'side-plank','kneeling-side-plank-right':'side-plank',
-  'side-leg-left':'side-plank','side-leg-right':'side-plank','cobra-stretch':'forward-fold',
-  'supine-twist':'side-stretch','elbow-knee-crunch':'bicycle-crunch','crossed-arm-crunch':'cross-arm-crunch',
-  'glute-bridge-hold':'glute-bridge','plank-knee-cross':'push-up','dumbbell-side-bend':'side-stretch',
-  'hollow-hold':'bird-dog','crunch-hold':'cross-arm-crunch','sit-up':'cross-arm-crunch','toe-touches':'cross-arm-crunch',
-  'plank-taps':'push-up','plank-hip-dips':'side-plank','plank-walkout':'push-up',
-  'superman':'bird-dog','bear-hold':'bird-dog','bear-crawl':'bird-dog','reverse-lunge':'lunge',
-  'side-lunge':'lunge','wall-sit':'squat','pushup-knees':'push-up','tempo-squat':'squat',
-  'good-morning':'forward-fold','standing-torso':'side-stretch','standing-knee-crunch':'knee-lift',
-  'cat-cow':'bird-dog','child-pose':'forward-fold','hip-circles':'standing','shoulder-rolls':'standing',
-  'step-back-burpee':'push-up','seated-leg-lifts':'glute-bridge','leg-raises':'leg-spread','scissor-kicks':'leg-spread','flutter-kicks':'leg-spread','russian-twist':'bicycle-crunch','v-sit':'cross-arm-crunch','knee-fallout':'twist-lying'
+  // Spezifische Originalkarten zuerst; Standardmotive nur bei tatsächlich passender Bewegung.
+  'march':'card-march-reach','boxing-march':'standing','coolwalk':'standing','arms':'card-arms','sidestep':'card-sidestep',
+  'kneelift':'card-kneelift','march-high':'card-march-high','jacks':'card-jacks','squat':'squat','squat-reach':'squat','burpee':'push-up','step-back-burpee':'card-step-back-burpee',
+  'deadbug':'card-deadbug','deadbug-taps':'card-deadbug','reverse':'card-reverse','bicycle':'card-bicycle','bridge':'card-bridge','plank':'card-plank','mountain':'card-mountain',
+  'bird-dog':'card-bird-dog','bird-dog-2':'card-bird-dog','side-plank':'card-side-plank','stretchside':'card-stretchside','hipstretch':'lunge','backmob':'card-backmob',
+  'skater':'lunge','heel-taps':'card-heel-taps','knee-fallout':'card-knee-fallout','knee-plank':'card-plank','glute-squeeze':'card-bridge','standing-crunch':'card-standing-knee-crunch',
+  'hollow-hold':'card-hollow-hold','scissor-kicks':'card-scissor-kicks','flutter-kicks':'card-flutter-kicks','leg-raises':'card-leg-raises','toe-touches':'card-toe-touches','russian-twist':'card-russian-twist','v-sit':'card-v-sit','v-ups':'card-v-sit',
+  'crunch-hold':'card-crunch-hold','cross-crunch':'card-cross-crunch','sit-up':'card-sit-up','plank-taps':'card-plank-taps','plank-hip-dips':'card-plank-hip-dips','plank-walkout':'push-up','superman':'card-superman','bear-hold':'card-bird-dog','bear-crawl':'card-mountain',
+  'reverse-lunge':'lunge','side-lunge':'lunge','wall-sit':'squat','pushup-knees':'push-up','tempo-squat':'squat','good-morning':'forward-fold','standing-torso':'card-standing-torso','standing-knee-crunch':'card-standing-knee-crunch','cat-cow':'card-backmob','child-pose':'card-child-pose','hip-circles':'card-hip-circles','shoulder-rolls':'card-shoulder-rolls','windshield-wipers':'card-windshield-wipers','seated-leg-lifts':'card-seated-leg-lifts',
+  'extended-crunch':'cross-arm-crunch','tapping-crunch':'card-heel-taps','glute-kickback':'card-bird-dog','alternating-leg-raise':'card-leg-raises','kneeling-side-plank-left':'card-side-plank','kneeling-side-plank-right':'card-side-plank','side-leg-raise-left':'side-leg-lift-left','side-leg-raise-right':'side-leg-lift-right','cobra-stretch':'forward-fold','supine-twist':'card-windshield-wipers','elbows-to-knees':'card-cross-crunch','cross-arm-crunch':'cross-arm-crunch','glute-bridge-hold':'card-bridge','forearm-plank-knee-cross':'card-plank','side-bend-dumbbell':'card-standing-torso','lying-knee-twist':'card-knee-fallout'
  };
  const asset=imageById[id];
  if(!asset) return `<div class="image-fallback" role="img" aria-label="Kein bestätigtes Bild für ${esc(e?.name||'diese Übung')}"><span>＋</span><strong>${esc(e?.name||'Übung')}</strong><small>Passendes Originalbild wird zugeordnet.</small></div>`;
