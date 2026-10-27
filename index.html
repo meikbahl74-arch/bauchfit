@@ -129,6 +129,15 @@ function dateKey(d=new Date()){return d.toISOString().slice(0,10)}
 function exerciseVisual(e){
  if(e?.phase==='rest') return `<div class="rest-visual" role="img" aria-label="Erholungspause"><div class="rest-orbit"><span>Ⅱ</span></div><strong>Kurze Erholung</strong><span>Atme ruhig und bereite dich auf die nächste Übung vor.</span></div>`;
  const id=e?.id||'';
+ const cardAssetById={
+  'child-pose':'card-child-pose','hip-circles':'card-hip-circles','shoulder-rolls':'card-shoulder-rolls','windshield-wipers':'card-windshield-wipers',
+  'seated-leg-lifts':'card-seated-leg-lifts','standing-knee-crunch':'card-standing-knee-crunch','flutter-kicks':'card-flutter-kicks','hollow-hold':'card-hollow-hold',
+  'bicycle':'card-bicycle','reverse':'card-reverse','bridge':'card-bridge','plank':'card-plank','side-plank':'card-side-plank','plank-taps':'card-plank-taps','plank-hip-dips':'card-plank-hip-dips','mountain':'card-mountain',
+  'bird-dog':'card-bird-dog','deadbug':'card-deadbug','superman':'card-superman','backmob':'card-backmob','toe-touches':'card-toe-touches','russian-twist':'card-russian-twist','v-sit':'card-v-sit',
+  'crunch-hold':'card-crunch-hold','cross-crunch':'card-cross-crunch','sit-up':'card-sit-up','scissor-kicks':'card-scissor-kicks','leg-raises':'card-leg-raises','heel-taps':'card-heel-taps','knee-fallout':'card-knee-fallout','stretchside':'card-stretchside',
+  'march-high':'card-march-high','sidestep':'card-sidestep','kneelift':'card-kneelift','jacks':'card-jacks','step-back-burpee':'card-step-back-burpee','arms':'card-arms','standing-torso':'card-standing-torso','butt-kicks':'card-butt-kicks',
+  'standing-hamstring-curl':'card-standing-hamstring-curl','step-touch-reach':'card-step-touch-reach','standing-quad-stretch':'card-standing-quad-stretch','standing-toe-taps':'card-standing-toe-taps','march-reach':'card-march-reach','heel-digs':'card-heel-digs','standing-side-knee-raise':'card-standing-side-knee-raise','heel-digs-arms':'card-heel-digs-arms'
+ };
  const imageById={
   'march':'standing','boxing-march':'standing','coolwalk':'standing','arms':'standing','sidestep':'standing',
   'kneelift':'knee-lift','march-high':'knee-lift','jacks':'jumping-jacks',
@@ -142,7 +151,7 @@ function exerciseVisual(e){
   'v-ups':'reverse-crunch','extended-crunch':'cross-arm-crunch','heel-tap-crunch':'cross-arm-crunch','glute-kicks':'bird-dog','alternating-leg-raise':'leg-spread','kneeling-side-plank-left':'side-plank','kneeling-side-plank-right':'side-plank','side-leg-left':'side-leg-lift-left','side-leg-right':'side-leg-lift-right','cobra-stretch':'forward-fold','supine-twist':'twist-lying','elbow-knee-crunch':'bicycle-crunch','crossed-arm-crunch':'cross-arm-crunch','glute-bridge-hold':'glute-bridge','plank-knee-cross':'plank','dumbbell-side-bend':'standing','knee-twist':'twist-lying',
   'hollow-hold':'dead-bug','scissor-kicks':'bicycle-crunch','flutter-kicks':'bicycle-crunch','leg-raises':'reverse-crunch','toe-touches':'bicycle-crunch','russian-twist':'bicycle-crunch','v-sit':'bicycle-crunch','crunch-hold':'reverse-crunch','cross-crunch':'bicycle-crunch','sit-up':'reverse-crunch','plank-taps':'plank','plank-hip-dips':'side-plank','plank-walkout':'push-up','superman':'forward-fold','bear-hold':'bird-dog','bear-crawl':'mountain-climber','reverse-lunge':'lunge','side-lunge':'lunge','wall-sit':'squat','pushup-knees':'push-up','tempo-squat':'squat','good-morning':'forward-fold','standing-torso':'standing','standing-knee-crunch':'knee-lift','cat-cow':'bird-dog','child-pose':'forward-fold','hip-circles':'standing','shoulder-rolls':'standing','step-back-burpee':'push-up','windshield-wipers':'reverse-crunch','seated-leg-lifts':'reverse-crunch'
  });
- const asset=imageById[id];
+ const asset=cardAssetById[id]||imageById[id];
  if(!asset) return `<div class="image-fallback" role="img" aria-label="Kein bestätigtes Bild für ${esc(e?.name||'Übung')}"><span>＋</span><strong>${esc(e?.name||'Übung')}</strong><small>Passendes Originalbild wird zugeordnet.</small></div>`;
  return `<img class="exercise-photo" src="./${asset}.webp" alt="${esc(e?.name||'Übung')}" loading="eager" onerror="this.onerror=null;this.outerHTML='<div class=\"image-fallback\"><span>＋</span><strong>Übungsillustration</strong><small>Bilddatei nicht verfügbar.</small></div>'">`;
 }
