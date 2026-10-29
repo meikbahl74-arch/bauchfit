@@ -1,0 +1,766 @@
+[
+  {
+    "id": "arm-circles",
+    "name": "Arm Circles – Armkreisen",
+    "category": "Mobilität / Aufwärmen",
+    "muscles": [
+      "Schultern",
+      "oberer Rücken"
+    ],
+    "description": "Arme seitlich ausstrecken und kleine kontrollierte Kreise ausführen.",
+    "instructions": "Arme seitlich ausstrecken und kleine Kreise ausführen. Nach einigen Sekunden die Richtung wechseln.",
+    "metric": "Zeit",
+    "level": "B",
+    "image": "exercises/arm-circles.webp",
+    "sourceImage": "card-arms.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "knee-fallout",
+    "name": "Bent Knee Fallout",
+    "category": "Mobilität / Core",
+    "muscles": [
+      "Hüfte",
+      "tiefer Core"
+    ],
+    "description": "Ein gebeugtes Knie langsam nach außen öffnen, Becken ruhig halten.",
+    "instructions": "Lege dich auf den Rücken, Füße aufgestellt. Lasse ein Knie seitlich nach außen sinken, ohne das Becken mitzudrehen.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/knee-fallout.webp",
+    "sourceImage": "card-knee-fallout.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "bicycle-crunch",
+    "name": "Bicycle Crunch",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade und schräge Bauchmuskeln"
+    ],
+    "description": "Ellbogen und gegenüberliegendes Knie zusammenführen, anderes Bein strecken.",
+    "instructions": "Lege dich auf den Rücken, Hände locker an den Kopf. Führe den Ellbogen diagonal zum gegenüberliegenden Knie und wechsle kontrolliert.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/bicycle-crunch.webp",
+    "sourceImage": "card-bicycle.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "bird-dog",
+    "name": "Bird Dog",
+    "category": "Rücken & Core",
+    "muscles": [
+      "Rumpf",
+      "Rückenstrecker",
+      "Gesäß"
+    ],
+    "description": "Gegenüberliegenden Arm und gegenüberliegendes Bein gleichzeitig strecken.",
+    "instructions": "Im Vierfüßlerstand gegenüberliegenden Arm und Bein strecken, Becken stabil halten und wechseln.",
+    "metric": "Wiederholungen je Seite",
+    "level": "A",
+    "image": "exercises/bird-dog.webp",
+    "sourceImage": "card-bird-dog.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "butt-kicks",
+    "name": "Butt Kicks – Fersen zum Gesäß",
+    "category": "Cardio / Beine",
+    "muscles": [
+      "Hintere Oberschenkel",
+      "Waden",
+      "Gesäß"
+    ],
+    "description": "Fersen abwechselnd zügig Richtung Gesäß führen.",
+    "instructions": "Laufe locker auf der Stelle und führe die Fersen abwechselnd nach hinten Richtung Gesäß. Bleibe aufrecht und lande weich.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/butt-kicks.webp",
+    "sourceImage": "card-butt-kicks.webp",
+    "reviewNote": "Tempo-Variante zu Standing Hamstring Curl"
+  },
+  {
+    "id": "child-pose",
+    "name": "Child’s Pose – Kindhaltung",
+    "category": "Cool-down",
+    "muscles": [
+      "Rücken",
+      "Schultern",
+      "Hüfte"
+    ],
+    "description": "Setze dich Richtung Fersen und strecke die Arme nach vorn.",
+    "instructions": "Knie dich hin, setze das Gesäß Richtung Fersen und strecke die Arme nach vorn. Atme ruhig und bleibe schmerzfrei.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/child-pose.webp",
+    "sourceImage": "card-child-pose.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "cross-crunch",
+    "name": "Cross Crunch",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade und schräge Bauchmuskeln"
+    ],
+    "description": "Schulter diagonal zum gegenüberliegenden Knie drehen.",
+    "instructions": "Lege dich auf den Rücken, hebe Kopf und Schultern leicht an und führe eine Schulter diagonal zum gegenüberliegenden Knie. Seite wechseln.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/cross-crunch.webp",
+    "sourceImage": "card-cross-crunch.webp",
+    "reviewNote": "Liegende Variante"
+  },
+  {
+    "id": "crunch-hold",
+    "name": "Crunch Hold",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln"
+    ],
+    "description": "Oberkörper etwas anheben und die Position halten.",
+    "instructions": "Lege dich auf den Rücken, Knie gebeugt. Hebe die Schulterblätter leicht an, halte den Nacken lang und atme ruhig.",
+    "metric": "Haltezeit",
+    "level": "B",
+    "image": "exercises/crunch-hold.webp",
+    "sourceImage": "card-crunch-hold.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "dead-bug",
+    "name": "Dead Bug – Käferübung",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Tiefe Rumpfmuskulatur",
+      "Bauch"
+    ],
+    "description": "Gegenüberliegenden Arm und Bein kontrolliert absenken.",
+    "instructions": "Rückenlage, Arme nach oben und Knie über der Hüfte. Strecke Arm und gegenüberliegendes Bein, ohne den unteren Rücken abzuheben.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/dead-bug.webp",
+    "sourceImage": "card-deadbug.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "flutter-kicks",
+    "name": "Flutter Kicks",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln",
+      "Hüftbeuger"
+    ],
+    "description": "Kleine, abwechselnde Beinschläge knapp über dem Boden.",
+    "instructions": "Lege dich auf den Rücken, hebe die Beine leicht an und führe kleine abwechselnde Schläge aus. Rücken stabil halten; Knie bei Bedarf beugen.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/flutter-kicks.webp",
+    "sourceImage": "card-flutter-kicks.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "forward-fold",
+    "name": "Forward Fold – Vorbeuge",
+    "category": "Mobilität / Cool-down",
+    "muscles": [
+      "Hintere Oberschenkel",
+      "Rücken"
+    ],
+    "description": "Aus der Hüfte nach vorn beugen und Arme locker hängen lassen.",
+    "instructions": "Stehe aufrecht, beuge dich aus der Hüfte nach vorn und lasse Arme und Kopf locker hängen. Knie bei Bedarf leicht beugen.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/forward-fold.webp",
+    "sourceImage": "card-backmob.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "glute-bridge",
+    "name": "Glute Bridge – Gesäßbrücke",
+    "category": "Beine & Po / Core",
+    "muscles": [
+      "Gesäß",
+      "hintere Oberschenkel",
+      "Core"
+    ],
+    "description": "Hüfte bis zur geraden Linie zwischen Schultern, Hüfte und Knien heben.",
+    "instructions": "In Rückenlage mit angewinkelten Knien Füße in den Boden drücken, Hüfte heben und langsam senken.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/glute-bridge.webp",
+    "sourceImage": "card-bridge.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "heel-digs-arms",
+    "name": "Heel Digs mit Armbewegung",
+    "category": "Cardio / Ganzkörper",
+    "muscles": [
+      "Beine",
+      "Schultern",
+      "Koordination"
+    ],
+    "description": "Fersenwechsel mit koordinierter Armbewegung verbinden.",
+    "instructions": "Setze abwechselnd die Ferse nach vorn und bewege die Arme rhythmisch mit. Bleibe aufrecht und halte das Tempo gleichmäßig.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/heel-digs-arms.webp",
+    "sourceImage": "card-heel-digs-arms.webp",
+    "reviewNote": "Variante zu Heel Digs"
+  },
+  {
+    "id": "heel-digs",
+    "name": "Heel Digs – Fersen nach vorn setzen",
+    "category": "Cardio / Aufwärmen",
+    "muscles": [
+      "Beine",
+      "Waden"
+    ],
+    "description": "Abwechselnd die Ferse nach vorn setzen und die Zehen anheben.",
+    "instructions": "Mache kleine Schritte auf der Stelle und setze abwechselnd eine Ferse nach vorn. Ziehe die Zehen hoch.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/heel-digs.webp",
+    "sourceImage": "card-heel-digs.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "heel-taps",
+    "name": "Heel Taps – Fersentippen",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Schräge Bauchmuskeln"
+    ],
+    "description": "Abwechselnd seitlich mit den Händen Richtung Fersen greifen.",
+    "instructions": "Lege dich auf den Rücken, Knie gebeugt. Hebe die Schultern leicht an und greife abwechselnd seitlich Richtung Fersen.",
+    "metric": "Wiederholungen oder Zeit",
+    "level": "A",
+    "image": "exercises/heel-taps.webp",
+    "sourceImage": "card-heel-taps.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "hip-circles",
+    "name": "Hip Circles – Hüftkreisen",
+    "category": "Mobilität / Aufwärmen",
+    "muscles": [
+      "Hüfte",
+      "Rumpf"
+    ],
+    "description": "Große, langsame Kreise mit der Hüfte ausführen.",
+    "instructions": "Stehe hüftbreit, Hände an die Hüften. Kreise das Becken langsam in beide Richtungen.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/hip-circles.webp",
+    "sourceImage": "card-hip-circles.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "hollow-hold",
+    "name": "Hollow Hold",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln",
+      "tiefer Core"
+    ],
+    "description": "Arme und Beine gestreckt in der Hollow-Position halten.",
+    "instructions": "Lege dich auf den Rücken, hebe Schultern und Beine leicht an und strecke die Arme nach hinten. Halte den unteren Rücken am Boden.",
+    "metric": "Haltezeit",
+    "level": "A",
+    "image": "exercises/hollow-hold.webp",
+    "sourceImage": "card-hollow-hold.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "jumping-jacks",
+    "name": "Jumping Jacks – Hampelmänner",
+    "category": "Cardio / Ganzkörper",
+    "muscles": [
+      "Beine",
+      "Schultern",
+      "Herz-Kreislauf"
+    ],
+    "description": "Beine seitlich öffnen und Arme über Kopf führen.",
+    "instructions": "Springe die Füße auseinander und führe die Arme über Kopf. Gelenkschonend alternativ seitlich aussteigen.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/jumping-jacks.webp",
+    "sourceImage": "card-jacks.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "knee-lifts",
+    "name": "Knee Lifts – Knieheben im Stand",
+    "category": "Cardio / Core",
+    "muscles": [
+      "Bauch",
+      "Hüftbeuger",
+      "Beine"
+    ],
+    "description": "Knie abwechselnd anheben.",
+    "instructions": "Stehe aufrecht und hebe abwechselnd ein Knie an. Halte das Gleichgewicht und setze den Fuß kontrolliert ab.",
+    "metric": "Zeit",
+    "level": "B",
+    "image": "exercises/knee-lifts.webp",
+    "sourceImage": "card-kneelift.webp",
+    "reviewNote": "Ähnliche Variante zu March in Place"
+  },
+  {
+    "id": "leg-raises",
+    "name": "Leg Raises – Beinheben",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln",
+      "Hüftbeuger"
+    ],
+    "description": "Beide gestreckten Beine kontrolliert anheben und absenken.",
+    "instructions": "Lege dich auf den Rücken, Beine gestreckt. Hebe die Beine an und senke sie langsam, ohne den unteren Rücken stark ins Hohlkreuz zu bringen.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/leg-raises.webp",
+    "sourceImage": "card-leg-raises.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "march-and-reach",
+    "name": "March and Reach",
+    "category": "Cardio / Ganzkörper",
+    "muscles": [
+      "Beine",
+      "Schultern",
+      "Core"
+    ],
+    "description": "Knie abwechselnd heben und beide Arme nach vorn strecken.",
+    "instructions": "Marschieren auf der Stelle. Hebe abwechselnd ein Knie und strecke beide Arme nach vorn.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/march-and-reach.webp",
+    "sourceImage": "card-march-reach.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "march-in-place",
+    "name": "March in Place – Marschieren auf der Stelle",
+    "category": "Cardio / Aufwärmen",
+    "muscles": [
+      "Beine",
+      "Hüftbeuger",
+      "Kreislauf"
+    ],
+    "description": "Auf der Stelle marschieren und die Knie anheben.",
+    "instructions": "Marschieren auf der Stelle, Arme natürlich mitschwingen. Für mehr Intensität die Knie etwas höher anheben.",
+    "metric": "Zeit",
+    "level": "B",
+    "image": "exercises/march-in-place.webp",
+    "sourceImage": "card-march-high.webp",
+    "reviewNote": "Ähnlich zu Knee Lifts, aber als gleichmäßiges Marschieren"
+  },
+  {
+    "id": "mountain-climbers",
+    "name": "Mountain Climbers – Bergsteiger",
+    "category": "Cardio / Core",
+    "muscles": [
+      "Bauch",
+      "Schultern",
+      "Beine"
+    ],
+    "description": "Im Stütz die Knie abwechselnd zügig Richtung Brust ziehen.",
+    "instructions": "Stütze dich mit gestreckten Armen ab. Ziehe abwechselnd ein Knie Richtung Brust und halte den Oberkörper stabil.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/mountain-climbers.webp",
+    "sourceImage": "card-mountain - Kopie.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "plank-hip-dips",
+    "name": "Plank Hip Dips",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Schräge Bauchmuskeln",
+      "tiefer Core"
+    ],
+    "description": "Hüfte im Unterarmstütz kontrolliert nach links und rechts absenken.",
+    "instructions": "Gehe in den Unterarmstütz. Drehe das Becken kontrolliert zu einer Seite und dann zur anderen, ohne ins Hohlkreuz zu fallen.",
+    "metric": "Wiederholungen oder Zeit",
+    "level": "A",
+    "image": "exercises/plank-hip-dips.webp",
+    "sourceImage": "card-plank-hip-dips.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "plank-shoulder-taps",
+    "name": "Plank Shoulder Taps",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Core",
+      "Schultern",
+      "Brust"
+    ],
+    "description": "Abwechselnd mit einer Hand die gegenüberliegende Schulter berühren.",
+    "instructions": "Gehe in den hohen Stütz. Berühre abwechselnd mit einer Hand die gegenüberliegende Schulter und halte die Hüfte ruhig.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/plank-shoulder-taps.webp",
+    "sourceImage": "card-plank-taps.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "reverse-crunch",
+    "name": "Reverse Crunch",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln"
+    ],
+    "description": "Knie zur Brust ziehen und Becken leicht anheben.",
+    "instructions": "Lege dich auf den Rücken, Knie gebeugt. Ziehe die Knie zur Brust und rolle das Becken leicht an, dann kontrolliert absenken.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/reverse-crunch.webp",
+    "sourceImage": "card-reverse.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "russian-twist",
+    "name": "Russian Twist",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Schräge Bauchmuskeln",
+      "Core"
+    ],
+    "description": "Oberkörper kontrolliert abwechselnd nach links und rechts drehen.",
+    "instructions": "Setze dich hin und lehne dich leicht zurück. Drehe den Oberkörper kontrolliert von Seite zu Seite. Füße bei Bedarf am Boden lassen.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/russian-twist.webp",
+    "sourceImage": "card-russian-twist.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "windshield-wipers",
+    "name": "Scheibenwischer – Windshield Wipers",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Schräge Bauchmuskeln",
+      "gerade Bauchmuskeln",
+      "Rumpf"
+    ],
+    "description": "Beine mit gebeugten Knien kontrolliert von einer Seite zur anderen bewegen.",
+    "instructions": "Lege dich auf den Rücken, Arme seitlich. Hebe die gebeugten Beine an, senke sie kontrolliert zur Seite und kehre zur Mitte zurück. Schultern bleiben möglichst am Boden.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/windshield-wipers.webp",
+    "sourceImage": "card-windshield-wipers.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "scissor-kicks",
+    "name": "Scissor Kicks – Scheren-Beinschläge",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Bauch",
+      "Hüftbeuger"
+    ],
+    "description": "Gestreckte Beine abwechselnd überkreuzen.",
+    "instructions": "Lege dich auf den Rücken, hebe die Beine knapp über den Boden und überkreuze sie abwechselnd. Halte den Rumpf stabil.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/scissor-kicks.webp",
+    "sourceImage": "card-scissor-kicks.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "seated-leg-lifts",
+    "name": "Seated Leg Raises",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Bauch",
+      "Hüftbeuger"
+    ],
+    "description": "Im Sitzen beide Beine kontrolliert anheben.",
+    "instructions": "Setze dich mit gestützten Händen hin, lehne dich leicht zurück und hebe beide Beine kontrolliert an.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/seated-leg-lifts.webp",
+    "sourceImage": "card-seated-leg-lifts.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "side-stretch",
+    "name": "Seitliche Dehnung – Side Stretch",
+    "category": "Mobilität / Cool-down",
+    "muscles": [
+      "Seitliche Rumpfmuskulatur"
+    ],
+    "description": "Einen Arm über Kopf nehmen und den Oberkörper zur Gegenseite neigen.",
+    "instructions": "Stehe stabil, hebe einen Arm über Kopf und neige dich sanft zur Gegenseite. Halte die Hüfte ruhig und wechsle.",
+    "metric": "Zeit je Seite",
+    "level": "A",
+    "image": "exercises/side-stretch.webp",
+    "sourceImage": "card-stretchside.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "shoulder-rolls",
+    "name": "Shoulder Rolls – Schulterkreisen",
+    "category": "Mobilität / Aufwärmen",
+    "muscles": [
+      "Schultern",
+      "oberer Rücken"
+    ],
+    "description": "Beide Schultern gleichzeitig nach hinten kreisen.",
+    "instructions": "Stehe aufrecht und kreise beide Schultern langsam nach hinten.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/shoulder-rolls.webp",
+    "sourceImage": "card-shoulder-rolls.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "side-plank",
+    "name": "Side Plank – Seitstütz",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Schräge Bauchmuskeln",
+      "Hüfte",
+      "Schultern"
+    ],
+    "description": "Seitstütz auf dem Unterarm halten, Beine gestreckt.",
+    "instructions": "Lege dich auf die Seite und stütze dich auf dem Unterarm ab. Hebe die Hüfte an und halte den Körper in einer Linie. Bei Bedarf Knie ablegen.",
+    "metric": "Haltezeit je Seite",
+    "level": "A",
+    "image": "exercises/side-plank.webp",
+    "sourceImage": "card-side-plank.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "side-steps",
+    "name": "Side Steps – Seitwärtsschritte",
+    "category": "Cardio / Beine",
+    "muscles": [
+      "Beine",
+      "Gesäß"
+    ],
+    "description": "Seitliche Schritte mit leichter Kniebeuge.",
+    "instructions": "Gehe in eine leichte Kniebeuge und mache kontrollierte Schritte seitwärts. Halte den Oberkörper stabil.",
+    "metric": "Zeit",
+    "level": "B",
+    "image": "exercises/side-steps.webp",
+    "sourceImage": "card-sidestep.webp",
+    "reviewNote": "Variante zu Step-Touch-Reach"
+  },
+  {
+    "id": "sit-up",
+    "name": "Sit-up",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln",
+      "Hüftbeuger"
+    ],
+    "description": "Oberkörper kontrolliert bis zum aufrechten Sitz anheben.",
+    "instructions": "Lege dich mit angewinkelten Knien hin. Hebe den Oberkörper kontrolliert an und rolle langsam wieder ab. Nicht am Nacken ziehen.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/sit-up.webp",
+    "sourceImage": "card-sit-up.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "standing-hamstring-curl",
+    "name": "Standing Hamstring Curl",
+    "category": "Beine / Aufwärmen",
+    "muscles": [
+      "Hintere Oberschenkel",
+      "Gesäß"
+    ],
+    "description": "Ferse kontrolliert Richtung Gesäß führen.",
+    "instructions": "Stehe aufrecht und beuge ein Knie, um die Ferse Richtung Gesäß zu führen. Senke kontrolliert ab und wechsle die Seite.",
+    "metric": "Wiederholungen oder Zeit",
+    "level": "A",
+    "image": "exercises/standing-hamstring-curl.webp",
+    "sourceImage": "card-standing-hamstring-curl.webp",
+    "reviewNote": "Tempo-Variante zu Butt Kicks"
+  },
+  {
+    "id": "standing-knee-crunch",
+    "name": "Standing Knee Crunch",
+    "category": "Bauch / Ganzkörper",
+    "muscles": [
+      "Bauchmuskeln",
+      "Hüftbeuger"
+    ],
+    "description": "Knie anheben und den Oberkörper kontrolliert zum Knie führen.",
+    "instructions": "Stehe aufrecht, Hände locker am Kopf oder vor der Brust. Hebe ein Knie und bringe den Oberkörper leicht entgegen. Seite wechseln.",
+    "metric": "Wiederholungen",
+    "level": "B",
+    "image": "exercises/standing-knee-crunch.webp",
+    "sourceImage": "card-standing-knee-crunch.webp",
+    "reviewNote": "Variante zu Cross-body Knee Drive"
+  },
+  {
+    "id": "standing-quad-stretch",
+    "name": "Standing Quad Stretch – Oberschenkeldehnung",
+    "category": "Mobilität / Cool-down",
+    "muscles": [
+      "Vorderer Oberschenkel"
+    ],
+    "description": "Ferse zum Gesäß ziehen und Knie nach unten halten.",
+    "instructions": "Stehe aufrecht, greife einen Fuß hinter dem Körper und führe die Ferse sanft zum Gesäß. Knie nebeneinander halten, dann Seite wechseln.",
+    "metric": "Zeit je Seite",
+    "level": "A",
+    "image": "exercises/standing-quad-stretch.webp",
+    "sourceImage": "card-standing-quad-stretch.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "standing-side-bends",
+    "name": "Standing Side Bends – Seitbeugen",
+    "category": "Mobilität / Core",
+    "muscles": [
+      "Schräge Bauchmuskeln",
+      "Flanken"
+    ],
+    "description": "Oberkörper abwechselnd zu beiden Seiten neigen.",
+    "instructions": "Stehe hüftbreit, Hände an die Hüften. Neige dich kontrolliert zur Seite, ohne den Oberkörper zu drehen.",
+    "metric": "Wiederholungen oder Zeit",
+    "level": "A",
+    "image": "exercises/standing-side-bends.webp",
+    "sourceImage": "card-standing-torso.webp",
+    "reviewNote": "Dynamische Variante zu Side Stretch"
+  },
+  {
+    "id": "standing-side-knee-raise",
+    "name": "Standing Side Knee Raise",
+    "category": "Beine / Core",
+    "muscles": [
+      "Hüfte",
+      "schräge Bauchmuskeln"
+    ],
+    "description": "Knie seitlich anheben und Oberkörper aufrecht halten.",
+    "instructions": "Stehe aufrecht, hebe ein Knie seitlich an und halte das Becken stabil. Senke kontrolliert ab und wechsle die Seite.",
+    "metric": "Wiederholungen oder Zeit",
+    "level": "A",
+    "image": "exercises/standing-side-knee-raise.webp",
+    "sourceImage": "card-standing-side-knee-raise.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "standing-toe-taps",
+    "name": "Standing Toe Taps – Zehenspitzen-Tippen",
+    "category": "Cardio / Beine",
+    "muscles": [
+      "Beine",
+      "Hüfte"
+    ],
+    "description": "Abwechselnd seitlich mit der Zehenspitze tippen.",
+    "instructions": "Stehe aufrecht und tippe abwechselnd seitlich mit der Zehenspitze auf den Boden. Halte den Oberkörper ruhig.",
+    "metric": "Zeit",
+    "level": "B",
+    "image": "exercises/standing-toe-taps.webp",
+    "sourceImage": "card-standing-toe-taps.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "step-back-burpee",
+    "name": "Step-Back-Burpee",
+    "category": "Cardio / Ganzkörper",
+    "muscles": [
+      "Beine",
+      "Gesäß",
+      "Schultern",
+      "Core"
+    ],
+    "description": "Aus der Hocke die Füße nacheinander in den Stütz und zurück setzen.",
+    "instructions": "Gehe in die Hocke und setze die Hände auf. Steige mit den Füßen einzeln nach hinten in den Stütz, dann wieder nach vorn und richte dich auf.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/step-back-burpee.webp",
+    "sourceImage": "card-step-back-burpee.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "step-touch-reach",
+    "name": "Step-Touch-Reach",
+    "category": "Cardio / Ganzkörper",
+    "muscles": [
+      "Beine",
+      "Gesäß",
+      "Schultern",
+      "Core"
+    ],
+    "description": "Seitliche Schritte mit Armheben über Kopf kombinieren.",
+    "instructions": "Schritt seitlich und ziehe den anderen Fuß heran. Hebe dabei die Arme über Kopf und wechsle die Richtung.",
+    "metric": "Zeit",
+    "level": "A",
+    "image": "exercises/step-touch-reach.webp",
+    "sourceImage": "card-step-touch-reach.webp",
+    "reviewNote": "Variante zu Side Steps"
+  },
+  {
+    "id": "superman",
+    "name": "Superman",
+    "category": "Rücken & Core",
+    "muscles": [
+      "Rückenstrecker",
+      "Gesäß",
+      "hintere Schultern"
+    ],
+    "description": "Arme und Beine in Bauchlage kontrolliert anheben.",
+    "instructions": "Lege dich auf den Bauch, strecke Arme und Beine aus und hebe sie nur leicht an. Senke kontrolliert ab.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/superman.webp",
+    "sourceImage": "card-superman.webp",
+    "reviewNote": "Dynamische Variante zu Superman Hold"
+  },
+  {
+    "id": "toe-touch-crunch",
+    "name": "Toe Touch Crunch",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln"
+    ],
+    "description": "Beine nach oben strecken und Hände Richtung Zehen führen.",
+    "instructions": "Lege dich auf den Rücken, Beine nach oben. Hebe den Oberkörper kontrolliert an und führe die Hände Richtung Zehen.",
+    "metric": "Wiederholungen",
+    "level": "A",
+    "image": "exercises/toe-touch-crunch.webp",
+    "sourceImage": "card-toe-touches.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "forearm-plank",
+    "name": "Unterarmstütz – Forearm Plank",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Bauch",
+      "Rücken",
+      "Schultern"
+    ],
+    "description": "Stabile Plank-Position auf Unterarmen und Zehen halten.",
+    "instructions": "Stütze dich auf Unterarmen und Zehen ab. Halte Kopf, Rücken, Hüfte und Beine in einer Linie und atme ruhig.",
+    "metric": "Haltezeit",
+    "level": "A",
+    "image": "exercises/forearm-plank.webp",
+    "sourceImage": "card-plank.webp",
+    "reviewNote": ""
+  },
+  {
+    "id": "v-sit",
+    "name": "V-Sit / V-Sit Hold",
+    "category": "Bauch & Core",
+    "muscles": [
+      "Gerade Bauchmuskeln",
+      "tiefer Core",
+      "Hüftbeuger"
+    ],
+    "description": "Oberkörper leicht zurücklehnen und Beine angehoben halten.",
+    "instructions": "Setze dich hin, lehne den Oberkörper leicht zurück, hebe die Beine an und strecke die Arme nach vorn.",
+    "metric": "Haltezeit",
+    "level": "A",
+    "image": "exercises/v-sit.webp",
+    "sourceImage": "card-v-sit.webp",
+    "reviewNote": ""
+  }
+]

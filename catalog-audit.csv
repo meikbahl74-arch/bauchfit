@@ -1,0 +1,48 @@
+﻿ID;Übung;Kategorie;Muskelgruppen;Trainingsart;Niveau-Referenz;Bilddatei;Dubletten-/Variantenhinweis
+arm-circles;Arm Circles – Armkreisen;Mobilität / Aufwärmen;Schultern, oberer Rücken;Zeit;B;exercises/arm-circles.webp;
+knee-fallout;Bent Knee Fallout;Mobilität / Core;Hüfte, tiefer Core;Wiederholungen;A;exercises/knee-fallout.webp;
+bicycle-crunch;Bicycle Crunch;Bauch & Core;Gerade und schräge Bauchmuskeln;Wiederholungen;A;exercises/bicycle-crunch.webp;
+bird-dog;Bird Dog;Rücken & Core;Rumpf, Rückenstrecker, Gesäß;Wiederholungen je Seite;A;exercises/bird-dog.webp;
+butt-kicks;Butt Kicks – Fersen zum Gesäß;Cardio / Beine;Hintere Oberschenkel, Waden, Gesäß;Zeit;A;exercises/butt-kicks.webp;Tempo-Variante zu Standing Hamstring Curl
+child-pose;Child’s Pose – Kindhaltung;Cool-down;Rücken, Schultern, Hüfte;Zeit;A;exercises/child-pose.webp;
+cross-crunch;Cross Crunch;Bauch & Core;Gerade und schräge Bauchmuskeln;Wiederholungen;A;exercises/cross-crunch.webp;Liegende Variante
+crunch-hold;Crunch Hold;Bauch & Core;Gerade Bauchmuskeln;Haltezeit;B;exercises/crunch-hold.webp;
+dead-bug;Dead Bug – Käferübung;Bauch & Core;Tiefe Rumpfmuskulatur, Bauch;Wiederholungen;A;exercises/dead-bug.webp;
+flutter-kicks;Flutter Kicks;Bauch & Core;Gerade Bauchmuskeln, Hüftbeuger;Zeit;A;exercises/flutter-kicks.webp;
+forward-fold;Forward Fold – Vorbeuge;Mobilität / Cool-down;Hintere Oberschenkel, Rücken;Zeit;A;exercises/forward-fold.webp;
+glute-bridge;Glute Bridge – Gesäßbrücke;Beine & Po / Core;Gesäß, hintere Oberschenkel, Core;Wiederholungen;A;exercises/glute-bridge.webp;
+heel-digs-arms;Heel Digs mit Armbewegung;Cardio / Ganzkörper;Beine, Schultern, Koordination;Zeit;A;exercises/heel-digs-arms.webp;Variante zu Heel Digs
+heel-digs;Heel Digs – Fersen nach vorn setzen;Cardio / Aufwärmen;Beine, Waden;Zeit;A;exercises/heel-digs.webp;
+heel-taps;Heel Taps – Fersentippen;Bauch & Core;Schräge Bauchmuskeln;Wiederholungen oder Zeit;A;exercises/heel-taps.webp;
+hip-circles;Hip Circles – Hüftkreisen;Mobilität / Aufwärmen;Hüfte, Rumpf;Zeit;A;exercises/hip-circles.webp;
+hollow-hold;Hollow Hold;Bauch & Core;Gerade Bauchmuskeln, tiefer Core;Haltezeit;A;exercises/hollow-hold.webp;
+jumping-jacks;Jumping Jacks – Hampelmänner;Cardio / Ganzkörper;Beine, Schultern, Herz-Kreislauf;Zeit;A;exercises/jumping-jacks.webp;
+knee-lifts;Knee Lifts – Knieheben im Stand;Cardio / Core;Bauch, Hüftbeuger, Beine;Zeit;B;exercises/knee-lifts.webp;Ähnliche Variante zu March in Place
+leg-raises;Leg Raises – Beinheben;Bauch & Core;Gerade Bauchmuskeln, Hüftbeuger;Wiederholungen;A;exercises/leg-raises.webp;
+march-and-reach;March and Reach;Cardio / Ganzkörper;Beine, Schultern, Core;Zeit;A;exercises/march-and-reach.webp;
+march-in-place;March in Place – Marschieren auf der Stelle;Cardio / Aufwärmen;Beine, Hüftbeuger, Kreislauf;Zeit;B;exercises/march-in-place.webp;Ähnlich zu Knee Lifts, aber als gleichmäßiges Marschieren
+mountain-climbers;Mountain Climbers – Bergsteiger;Cardio / Core;Bauch, Schultern, Beine;Zeit;A;exercises/mountain-climbers.webp;
+plank-hip-dips;Plank Hip Dips;Bauch & Core;Schräge Bauchmuskeln, tiefer Core;Wiederholungen oder Zeit;A;exercises/plank-hip-dips.webp;
+plank-shoulder-taps;Plank Shoulder Taps;Bauch & Core;Core, Schultern, Brust;Wiederholungen;A;exercises/plank-shoulder-taps.webp;
+reverse-crunch;Reverse Crunch;Bauch & Core;Gerade Bauchmuskeln;Wiederholungen;A;exercises/reverse-crunch.webp;
+russian-twist;Russian Twist;Bauch & Core;Schräge Bauchmuskeln, Core;Wiederholungen;A;exercises/russian-twist.webp;
+windshield-wipers;Scheibenwischer – Windshield Wipers;Bauch & Core;Schräge Bauchmuskeln, gerade Bauchmuskeln, Rumpf;Wiederholungen;A;exercises/windshield-wipers.webp;
+scissor-kicks;Scissor Kicks – Scheren-Beinschläge;Bauch & Core;Bauch, Hüftbeuger;Zeit;A;exercises/scissor-kicks.webp;
+seated-leg-lifts;Seated Leg Raises;Bauch & Core;Bauch, Hüftbeuger;Wiederholungen;A;exercises/seated-leg-lifts.webp;
+side-stretch;Seitliche Dehnung – Side Stretch;Mobilität / Cool-down;Seitliche Rumpfmuskulatur;Zeit je Seite;A;exercises/side-stretch.webp;
+shoulder-rolls;Shoulder Rolls – Schulterkreisen;Mobilität / Aufwärmen;Schultern, oberer Rücken;Zeit;A;exercises/shoulder-rolls.webp;
+side-plank;Side Plank – Seitstütz;Bauch & Core;Schräge Bauchmuskeln, Hüfte, Schultern;Haltezeit je Seite;A;exercises/side-plank.webp;
+side-steps;Side Steps – Seitwärtsschritte;Cardio / Beine;Beine, Gesäß;Zeit;B;exercises/side-steps.webp;Variante zu Step-Touch-Reach
+sit-up;Sit-up;Bauch & Core;Gerade Bauchmuskeln, Hüftbeuger;Wiederholungen;A;exercises/sit-up.webp;
+standing-hamstring-curl;Standing Hamstring Curl;Beine / Aufwärmen;Hintere Oberschenkel, Gesäß;Wiederholungen oder Zeit;A;exercises/standing-hamstring-curl.webp;Tempo-Variante zu Butt Kicks
+standing-knee-crunch;Standing Knee Crunch;Bauch / Ganzkörper;Bauchmuskeln, Hüftbeuger;Wiederholungen;B;exercises/standing-knee-crunch.webp;Variante zu Cross-body Knee Drive
+standing-quad-stretch;Standing Quad Stretch – Oberschenkeldehnung;Mobilität / Cool-down;Vorderer Oberschenkel;Zeit je Seite;A;exercises/standing-quad-stretch.webp;
+standing-side-bends;Standing Side Bends – Seitbeugen;Mobilität / Core;Schräge Bauchmuskeln, Flanken;Wiederholungen oder Zeit;A;exercises/standing-side-bends.webp;Dynamische Variante zu Side Stretch
+standing-side-knee-raise;Standing Side Knee Raise;Beine / Core;Hüfte, schräge Bauchmuskeln;Wiederholungen oder Zeit;A;exercises/standing-side-knee-raise.webp;
+standing-toe-taps;Standing Toe Taps – Zehenspitzen-Tippen;Cardio / Beine;Beine, Hüfte;Zeit;B;exercises/standing-toe-taps.webp;
+step-back-burpee;Step-Back-Burpee;Cardio / Ganzkörper;Beine, Gesäß, Schultern, Core;Zeit;A;exercises/step-back-burpee.webp;
+step-touch-reach;Step-Touch-Reach;Cardio / Ganzkörper;Beine, Gesäß, Schultern, Core;Zeit;A;exercises/step-touch-reach.webp;Variante zu Side Steps
+superman;Superman;Rücken & Core;Rückenstrecker, Gesäß, hintere Schultern;Wiederholungen;A;exercises/superman.webp;Dynamische Variante zu Superman Hold
+toe-touch-crunch;Toe Touch Crunch;Bauch & Core;Gerade Bauchmuskeln;Wiederholungen;A;exercises/toe-touch-crunch.webp;
+forearm-plank;Unterarmstütz – Forearm Plank;Bauch & Core;Bauch, Rücken, Schultern;Haltezeit;A;exercises/forearm-plank.webp;
+v-sit;V-Sit / V-Sit Hold;Bauch & Core;Gerade Bauchmuskeln, tiefer Core, Hüftbeuger;Haltezeit;A;exercises/v-sit.webp;
