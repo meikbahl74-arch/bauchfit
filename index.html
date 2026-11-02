@@ -329,7 +329,7 @@ function makeChallengePlan(day,level){
  const progression=Math.min(20,Math.floor((day-1)/5)*5);
  const coreSeconds=(isLight?Math.max(15,baseSeconds-10):baseSeconds+progression);
  const warmSeconds=level==='Anfänger'?35:level==='Fortgeschritten'?40:45;
- const stretchSeconds=40; // bei einseitigen Dehnungen 20 Sekunden je Seite
+ const stretchSeconds = 40; // Bei einseitigen Dehnungen 20 Sekunden je Seite
  const pauseSeconds=15;
  const coreBlocks=[
   ['deadbug'],['reverse'],['heel-taps'],['knee-fallout'],['deadbug-taps'],['knee-plank'],
@@ -347,7 +347,7 @@ function makeChallengePlan(day,level){
  const start=((day-1)*3)%eligible.length;
  let chosenBlocks=[];
  for(let i=0;i<eligible.length&&chosenBlocks.length<slots;i++) chosenBlocks.push(eligible[(start+i*2)%eligible.length]);
- // A light recovery day keeps the same structure but uses gentle core movements and shorter intervals.
+ // Ein leichter Erholungstag behält die gleiche Struktur, verwendet aber sanfte Rumpfbewegungen und kürzere Intervalle.
  if(isLight){
   const gentle=[['deadbug'],['knee-fallout'],['heel-taps'],['bird-dog']];
   chosenBlocks=gentle.slice(0,level==='Anfänger'?3:4);
