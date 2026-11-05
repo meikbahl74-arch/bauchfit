@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bauchfit-cache-v1-5';
+const CACHE_NAME = 'bauchfit-3-5';
 const CORE = ['./','./index.html','./manifest.webmanifest','./icon.svg',
   './exercises/alternating-knee-raise.webp',
   './exercises/arm-circles.webp',

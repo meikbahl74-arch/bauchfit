@@ -2,7 +2,7 @@ BAUCHFIT 3.0 – GESAMTAPP
 
 Diese Version baut auf der vollständigen BauchFit-App 1.4 auf. Die bestehenden Funktionen bleiben erhalten: 30-Tage-Challenge, drei Trainingsstufen, individueller Trainingsgenerator, Timer, Profil, Statistik, lokale Speicherung, Kalorienschätzung sowie die vorbereitete Supabase-Anmeldung und Cloud-Synchronisierung.
 
-Übungskatalog: Die vollständige bisherige Übungsliste bleibt erhalten; insgesamt enthält der Katalog jetzt 99 Einträge. Ergänzt wurden eigenständige Übungen und Bildzuordnungen aus dem Katalog 23–92. Übungsvarianten mit gleicher Grundbewegung verwenden gemeinsame Bilder, soweit kein separates Bild vorliegt. Übungen 73–80 sind jetzt ebenfalls mit Bildern eingebunden. Nr. 92 ist eine Butt-Kicks-Variante und bleibt als Variante im Bildbestand erhalten; im Katalog wird die Grundübung nicht doppelt angelegt.
+Übungskatalog: Die vollständige bisherige Übungsliste bleibt erhalten; der App-Katalog enthält 78 eigenständige Standardübungen. Ergänzt wurden eigenständige Übungen und Bildzuordnungen aus dem Katalog 23–92. Übungsvarianten mit gleicher Grundbewegung verwenden gemeinsame Bilder, soweit kein separates Bild vorliegt. Übungen 73–80 sind jetzt ebenfalls mit Bildern eingebunden. Nr. 92 ist eine Butt-Kicks-Variante und bleibt als Variante im Bildbestand erhalten; im Katalog wird die Grundübung nicht doppelt angelegt.
 
 INSTALLATION
 1. ZIP vollständig entpacken.
